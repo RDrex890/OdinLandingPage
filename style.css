@@ -1,1 +1,54 @@
-* {font-family: Helvetica, Arial, sans-serif}
+* {font-family: Roboto, Helvetica, Arial, sans-serif}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header-blue {
+    background-color: 1f2937;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-blue {
+    background-color: 1f2937;
+}
+
+.sect1-blue {
+    background-color: 1f2937;    
+}
+
+.sect2-white {
+
+}
+
+.sect3-gray {
+
+}
+
+.sect4-white {
+
+}
+
+h1 {
+
+}
+
+p {
+
+}
+
+button {
+
+}
+
+.image {
+
+}
+
