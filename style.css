@@ -14,9 +14,9 @@ body {
     flex-direction: column;
     flex: 1 0 auto;
 }
-//*************************************//
+/***************************/
 .header-blue {
-    padding: 0 10% 0 10%;
+    padding: 0 15% 0 1%;
     height: 48px;
     background-color: #1f2937;
     display: flex;
@@ -42,19 +42,19 @@ ul {
 li{
     padding: 16px;
 }
-//*************************************//
+
 .container {
     
     flex-grow: 8;
     display: flex;
     flex-direction: column;
 }
-//*************************************//
+/***************************/
 .footer-blue {
     height: 72px;
     background-color: #1f2937;
 }
-//*************************************//
+/***************************/
 .sect1-blue {
     padding: 7% 15% 0% 15%;
     height: 288px;
@@ -100,23 +100,57 @@ button {
     color: white;
     background-color: rgb(109, 109, 115);
 }
-//*************************************//
+
 .sect1-left {
     display: flex;
     flex-direction: column;
     width: auto ;
 }
-//*************************************//
+/***************************/
 .sect2-white {
-    height: 144px;
-   
+    padding: 4% 15% 0% 15%;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-//*************************************//
+
+h2 {
+    color: #1f2937;
+    font-weight: extra-bold;
+    font-size: 36px;
+}
+
+.illustrations-div {
+    display: flex;
+    padding: 0% 15% 0% 15%;
+    gap: 10px;
+}
+
+.illustr-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    height:100px;
+    width: 100px;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #3882f6;
+
+}
+
+.subtext {
+    text-align: center;
+}
+/***************************/
 .sect3-gray {
     height: 144px;
     background-color: #e5e7eb;
 }
-//*************************************//
+/***************************/
 .sect4-white {
     height: 144px;
 }
