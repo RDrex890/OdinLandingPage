@@ -2,50 +2,26 @@
 
 body {
     height: 100vh;
+    width: 100vw;
     margin: 0;
+    display: flex;
+
+}
+
+.main_container {
+    
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
 }
-
+//*************************************//
 .header-blue {
+    padding: 0 10% 0 10%;
     height: 48px;
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.container {
-    flex-grow: 8;
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-blue {
-    height: 72px;
-    background-color: #1f2937;
-}
-
-.sect1-blue {
-    height: 288px;
-    background-color: #1f2937;  
-    display: flex;
-    flex-flow: column wrap;  
-}
-
-.sect2-white {
-    height: 144px;
-   
-}
-
-.sect3-gray {
-    height: 144px;
-    background-color: #e5e7eb;
-}
-
-.sect4-white {
-    height: 144px;
 }
 
 h3 {
@@ -55,6 +31,7 @@ h3 {
 
 ul {
   font-size: 18px;
+  font-weight: lighter;
   color: #e5e7eb;
   list-style-type: none;
   margin: 0px;
@@ -65,27 +42,85 @@ ul {
 li{
     padding: 16px;
 }
+//*************************************//
+.container {
+    
+    flex-grow: 8;
+    display: flex;
+    flex-direction: column;
+}
+//*************************************//
+.footer-blue {
+    height: 72px;
+    background-color: #1f2937;
+}
+//*************************************//
+.sect1-blue {
+    padding: 7% 15% 0% 15%;
+    height: 288px;
+    background-color: #1f2937;  
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    align-items:flex-start;
+      
+}
 
 h1 {
     font-size: 48px;
     color: #f9faf8;
+    margin: 0;
     font-weight: extra-bold;
 }
 
 p {
     font-size: 18px;
+    font-weight: lighter;
     color: #e5e7eb;
 }
 
 button {
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: 500;
+    width: 135px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    padding: 6px 24px;
 
 }
 
 .image {
-    width: 600px;
-    height: 300px;
+    margin-right: auto;
+    padding: 100px;
+    max-width: 100%;
+    height: auto;
     text-align: center ;
     color: white;
-    background-color: rgb(109, 109, 109);
+    background-color: rgb(109, 109, 115);
 }
+//*************************************//
+.sect1-left {
+    display: flex;
+    flex-direction: column;
+    width: auto ;
+}
+//*************************************//
+.sect2-white {
+    height: 144px;
+   
+}
+//*************************************//
+.sect3-gray {
+    height: 144px;
+    background-color: #e5e7eb;
+}
+//*************************************//
+.sect4-white {
+    height: 144px;
+}
+
+
+
 
