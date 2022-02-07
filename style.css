@@ -50,8 +50,14 @@ li{
 }
 /***************************/
 .footer-blue {
-    height: 72px;
+    padding-top: 30px;
+    font-weight: lighter;
+    color: #e5e7eb;
+    height: 66px;
     background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 /***************************/
 .sect1-blue {
@@ -137,7 +143,6 @@ h2 {
     padding: 10px;
     width: 150px;
     height: 150px;
-    text-align: center ;
     color: white;
     border:solid #3882f6 4px;
     border-radius: 20px;
@@ -183,4 +188,43 @@ h2 {
     padding: 4% 15% 0% 15%;
     height: 288px;
     display: flex;
+}
+
+.action-box {
+    padding: 5% 10% 0% 10%;
+    width: 1000px;
+    height: 100px;
+    background-color:#3882f6;
+    border-style: hidden;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-text {
+    color: white;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 22px;
+    margin: 0%;
+}
+
+.sign-up {
+    margin: 0;
+}
+
+.bottom-button {
+    align-items: center;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: 500;
+    width: 135px;
+    height: 38px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    padding: 6px 24px;
+    border:solid white 2px;
 }
