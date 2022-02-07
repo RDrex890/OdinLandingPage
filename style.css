@@ -1,7 +1,7 @@
 * {font-family: Roboto, Helvetica, Arial, sans-serif}
 
 body {
-    height: 100vh;
+
     width: 100vw;
     margin: 0;
     display: flex;
@@ -108,7 +108,7 @@ button {
 }
 /***************************/
 .sect2-white {
-    padding: 4% 15% 0% 15%;
+    padding: 15px 15% 80px 15%;
     height: 288px;
     display: flex;
     flex-direction: column;
@@ -124,7 +124,7 @@ h2 {
 .illustrations-div {
     display: flex;
     padding: 0% 15% 0% 15%;
-    gap: 10px;
+    gap: 20px;
 }
 
 .illustr-group {
@@ -134,25 +134,35 @@ h2 {
 }
 
 .box {
-    height:100px;
-    width: 100px;
-    border-width: 3px;
-    border-radius: 10px;
-    border-color: #3882f6;
-
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    text-align: center ;
+    color: white;
+    border:solid #3882f6 4px;
+    border-radius: 20px;
 }
 
 .subtext {
+    width: 160px;
     text-align: center;
+    font-size: 18px;
+    color: #95979a;
+    margin-bottom: auto;
 }
 /***************************/
 .sect3-gray {
-    height: 144px;
+    padding: 4% 15% 0% 15%;
+    height: 288px;
+    display: flex;
     background-color: #e5e7eb;
 }
 /***************************/
 .sect4-white {
-    height: 144px;
+    padding: 4% 15% 0% 15%;
+    height: 288px;
+    display: flex;
 }
 
 
