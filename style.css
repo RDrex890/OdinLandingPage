@@ -1,11 +1,11 @@
-* {font-family: Roboto, Helvetica, Arial, sans-serif}
+* {
+    font-family: Roboto, Helvetica, Arial, sans-serif
+}
 
 body {
-
-    width: 100vw;
     margin: 0;
+    padding: 0;
     display: flex;
-
 }
 
 .main_container {
@@ -44,10 +44,9 @@ li{
 }
 
 .container {
-    
-    flex-grow: 8;
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
 }
 /***************************/
 .footer-blue {
@@ -108,7 +107,7 @@ button {
 }
 /***************************/
 .sect2-white {
-    padding: 15px 15% 80px 15%;
+    padding: 15px 0 150px 0;
     height: 288px;
     display: flex;
     flex-direction: column;
@@ -148,15 +147,36 @@ h2 {
     width: 160px;
     text-align: center;
     font-size: 18px;
-    color: #95979a;
+    font-weight: lighter;
+    color: #848587;
     margin-bottom: auto;
 }
 /***************************/
 .sect3-gray {
-    padding: 4% 15% 0% 15%;
+    padding: 6% 20px 4% 20px;
     height: 288px;
     display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
+}
+
+.quote {
+    align-self: center;
+    max-width: 800px;
+    margin: 3% 10% 0 10%;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align:justify;
+}
+
+.credit {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    max-width: 800px;
+    text-align: end;
+    padding-left: 20%;
 }
 /***************************/
 .sect4-white {
@@ -164,7 +184,3 @@ h2 {
     height: 288px;
     display: flex;
 }
-
-
-
-

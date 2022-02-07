@@ -13,11 +13,8 @@ Do not worry about making your project look nice on a mobile device. We’ll lea
 
 When you finish, don’t forget to push it up to GitHub!
 
-    color: white;
-    margin: 0;
-    height: 100px;
-    width: 100px;
-    padding: 5px;
-    border-width: 10px;
-    border-color: #3882f6;
-    margin: 5px;
+     width: 45%;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: center;
