@@ -13,8 +13,3 @@ Do not worry about making your project look nice on a mobile device. We’ll lea
 
 When you finish, don’t forget to push it up to GitHub!
 
-     width: 45%;
-    font-size: 36px;
-    font-weight: lighter;
-    color: #1f2937;
-    text-align: center;
